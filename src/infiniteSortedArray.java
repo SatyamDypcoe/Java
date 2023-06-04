@@ -1,4 +1,4 @@
-public class BSearch {
+public class infiniteSortedArray {
 
     // * In Infinite sorted array how to find target position. Amazon Que.
     public static void main(String[] args) {
