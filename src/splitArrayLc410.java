@@ -38,3 +38,4 @@ public class splitArrayLc410 {
         return end; // here start == end
     }
 }
+
