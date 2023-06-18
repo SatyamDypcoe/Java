@@ -7,18 +7,18 @@ public class DiffInMaxMin {
     }
     public static int solve(int[] A) {
         int emax = Integer.MIN_VALUE;
-        int omax = Integer.MAX_VALUE;
+        int omin = Integer.MAX_VALUE;
         for(int i = 0; i< A.length; i++ ){
             if((A[i] % 2 == 0) && (A[i] > emax)){
                 emax = A[i];
             }
-            else if(((A[i] % 2) !=0) && (A[i] <=omax)){
-                omax = A[i];
+            else if(((A[i] % 2) !=0) && (A[i] <=omin)){
+                omin = A[i];
             }
         }
 
 
         // System.out.println(-97%2);
-        return emax - omax;
+        return emax - omin;
     }
 }
