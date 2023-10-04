@@ -7,22 +7,14 @@ import java.util.Arrays;
 //
 //Return the lowercase version of the given character array.
 //
-//
-//
 //Problem Constraints
 //1 <= |A| <= 105
-//
-//
 //
 //Input Format
 //The only argument is a character array A.
 //
-//
-//
 //Output Format
 //Return the lowercase version of the given character array.
-//
-//
 //
 //Example Input
 //Input 1:
@@ -32,7 +24,6 @@ import java.util.Arrays;
 //
 // A = ['S', 'c', 'a', 'L', 'e', 'r', '#', '2', '0', '2', '0']
 //
-//
 //Example Output
 //Output 1:
 //
@@ -40,7 +31,6 @@ import java.util.Arrays;
 //Output 2:
 //
 // ['s', 'c', 'a', 'l', 'e', 'r', '#', '2', '0', '2', '0']
-//
 //
 //Example Explanation
 //Explanation 1:
