@@ -9,9 +9,7 @@ public class lc1108 {
         for(int i =0; i < n; i++){
             if(address.charAt(i) == '.'){
                 ans = ans + "[.]";
-            }else{
-                ans = ans + address.charAt(i);
-            }
+            }else ans = ans + address.charAt(i);
         }
         return ans;
     }
